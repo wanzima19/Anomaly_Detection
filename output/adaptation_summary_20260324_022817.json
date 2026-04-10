@@ -1,0 +1,29 @@
+{
+  "timestamp": "20260324_022817",
+  "drift_info": {
+    "target_pos_rate": 0.015,
+    "actual_pos_rate": 0.014983803634221969,
+    "mean_shift": 0.6,
+    "noise_std": 0.08,
+    "drift_features": [
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "Amount_scaled",
+      "Amount_log",
+      "PCA_magnitude"
+    ]
+  },
+  "base_threshold": 0.6200285994615138,
+  "adapted_threshold": 0.9,
+  "deployment_change_recommended": false,
+  "artifacts": {
+    "adapter_head": "output/adapter_head_20260324_022817.joblib",
+    "metrics_csv": "output/adaptation_metrics_20260324_022817.csv",
+    "delta_csv": "output/adaptation_deltas_20260324_022817.csv",
+    "latency_csv": "output/adaptation_latency_20260324_022817.csv",
+    "size_csv": "output/adaptation_size_20260324_022817.csv",
+    "summary_json": "output/adaptation_summary_20260324_022817.json"
+  }
+}

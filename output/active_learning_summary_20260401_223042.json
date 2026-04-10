@@ -1,0 +1,35 @@
+{
+  "timestamp": "20260401_223042",
+  "setup": {
+    "cycles": 6,
+    "pool_per_cycle": 4500,
+    "query_budget": 250,
+    "strategy": "uncertainty sampling + synthetic HITL labels"
+  },
+  "performance": {
+    "active_final_f1_after": 0.04668534080298786,
+    "random_final_f1_after": 0.07570977917981073,
+    "active_mean_f1_after": 0.020687910286102378,
+    "random_mean_f1_after": 0.04012678771269435,
+    "active_f1_gain_from_cycle1_to_cycleN": 0.0431805041283769,
+    "random_f1_gain_from_cycle1_to_cycleN": 0.07220494250519977
+  },
+  "efficiency": {
+    "avg_update_time_active_s": 0.0015268166656217848,
+    "avg_update_time_random_s": 0.0011019499979738612,
+    "avg_latency_p90_before_ms": 4.3828850948690426e-05,
+    "avg_latency_p90_after_ms": 4.291248276354041e-05,
+    "avg_label_saving_vs_full_pct": 0.9444444444444445
+  },
+  "stability": {
+    "std_delta_f1_active": 0.011827559196657005,
+    "negative_delta_cycles_active": 1
+  },
+  "artifacts": {
+    "metrics_csv": "e:\\_Anomaly\\output\\active_learning_metrics_20260401_223042.csv",
+    "efficiency_csv": "e:\\_Anomaly\\output\\active_learning_efficiency_20260401_223042.csv",
+    "labeling_csv": "e:\\_Anomaly\\output\\active_learning_labeling_20260401_223042.csv",
+    "trajectory_plot_png": "e:\\_Anomaly\\output\\active_learning_trajectories_20260401_223042.png",
+    "label_burden_plot_png": "e:\\_Anomaly\\output\\active_learning_label_burden_20260401_223042.png"
+  }
+}

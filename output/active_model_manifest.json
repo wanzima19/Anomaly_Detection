@@ -1,0 +1,22 @@
+{
+  "champion_version": "20260401_231500",
+  "created_at": "2026-04-01T23:15:00",
+  "artifacts": {
+    "random_forest": "output/model_random_forest_20260401_231500.pkl",
+    "xgboost": "output/model_xgboost_20260401_231500.pkl",
+    "logistic": "output/model_logistic_20260401_231500.pkl",
+    "deep_learning": "output/model_deep_learning_20260401_231500.keras",
+    "feature_engineer": "output/feature_engineer_20260401_231500.pkl",
+    "scaler": "output/scaler_20260401_231500.pkl",
+    "config": "output/model_config_20260401_231500.json",
+    "summary": "output/continual_summary_20260401_231500.json"
+  },
+  "parent_version": "20260324_022817",
+  "training_window": {
+    "recent_days": 30,
+    "replay_months": 12
+  },
+  "data_hash": "sha256:...",
+  "code_hash": "git:...",
+  "status": "champion"
+}

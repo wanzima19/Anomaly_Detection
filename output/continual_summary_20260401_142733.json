@@ -1,0 +1,52 @@
+{
+  "timestamp": "20260401_142733",
+  "n_steps": 6,
+  "interval_size": 6000,
+  "update_method": "SGDClassifier.partial_fit adapter over base ensemble score",
+  "artifacts": {
+    "metrics_csv": "e:\\_Anomaly\\output\\continual_metrics_20260401_142733.csv",
+    "efficiency_csv": "e:\\_Anomaly\\output\\continual_efficiency_20260401_142733.csv",
+    "metric_plot_png": "e:\\_Anomaly\\output\\continual_metric_trajectories_20260401_142733.png",
+    "efficiency_plot_png": "e:\\_Anomaly\\output\\continual_efficiency_trajectories_20260401_142733.png"
+  },
+  "final_step": {
+    "before": {
+      "step": 6,
+      "phase": "before_update",
+      "drift_strength": 2.1999999999999997,
+      "target_pos_rate": 0.023000000000000003,
+      "accuracy": 0.9444444444444444,
+      "precision": 0.18181818181818182,
+      "recall": 0.9565217391304348,
+      "f1": 0.3055555555555556,
+      "roc_auc": 0.9849526559173987,
+      "avg_precision": 0.8433920229967661,
+      "mae": 0.057292789390544975,
+      "log_loss": 0.3932378542131434
+    },
+    "after": {
+      "step": 6,
+      "phase": "after_update",
+      "drift_strength": 2.1999999999999997,
+      "target_pos_rate": 0.023000000000000003,
+      "accuracy": 0.97,
+      "precision": 0.29333333333333333,
+      "recall": 0.9565217391304348,
+      "f1": 0.4489795918367347,
+      "roc_auc": 0.9854909348927112,
+      "avg_precision": 0.916586729991095,
+      "mae": 0.03104082366856016,
+      "log_loss": 0.19834926781949946
+    }
+  },
+  "aggregate": {
+    "mean_f1_before": 0.4222422105661499,
+    "mean_f1_after": 0.36690812597070166,
+    "mean_accuracy_before": 0.9547222222222222,
+    "mean_accuracy_after": 0.9525,
+    "mean_mae_before": 0.04729185256885477,
+    "mean_mae_after": 0.04996849705932086,
+    "mean_update_time_s": 0.002801333333385022,
+    "mean_ram_delta_mb": 0.0032552083333333335
+  }
+}
